@@ -1,0 +1,18 @@
+.hover{
+    animation: hoverAnimation 2s infinite;
+
+}
+.delay-1{
+    animation-delay: .5s;
+}
+.delay-2{
+    animation-delay: 1s;
+}
+.delay-3{
+    animation-delay: 1.5s;
+}
+@keyframes hoverAnimation {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}

@@ -1,0 +1,199 @@
+body{
+    /* genariert mit https://cssgradient.io/ */
+    background: #2A7B9B;
+    background: -webkit-linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
+    background: -moz-linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
+    background: linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2A7B9B", endColorstr="#EDDD53", GradientType=0);
+    overflow-x: hidden;
+}
+p{
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+h1{
+    font-family: 'Chewy', cursive;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(17, 17, 17);
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    filter: invert(1);
+    position: fixed;
+}
+.title {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Titel Farbe Wasser Seite  hier soll nochg der Text einen Fabverlauf bekommen */
+.title-blue {
+    color: rgb(53, 101, 184);
+    text-shadow: 2px 2px 4px #1d3aaf;
+
+}
+
+.titleThemenAuswahl{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    position: absolute;
+}
+
+/* Themen Auswahl Seite */
+
+.themen-content-wasser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 400vh;
+    min-width: 100vh;
+    height: auto;
+    background-color: green;
+    background-image: url(../assets/img/underwater3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+  }
+
+
+.info-timeline{
+  position: relative;
+
+  width: 80%;
+  max-width: 1200px;
+}
+
+.img-fluid{
+    
+    cursor: pointer;
+}
+.img-fluid:hover{
+    animation: none;
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Google Fonts CSS für Chewy und Delius Unicase */
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.delius-unicase-regular {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.delius-unicase-bold {
+  font-family: "Delius Unicase", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+/* Timeline CSS  https://mdbootstrap.com/docs/standard/extended/timeline/ 26.12.2025 15:45 */
+/* The actual timeline (the vertical ruler) */
+.main-timeline-5 {
+  position: relative;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-5::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  margin-left: -3px;
+  height: 180vh;
+}
+
+/* Container around content */
+.timeline-5 {
+  position: relative;
+  background-color: inherit;
+  width: 100%;
+}
+
+/* The circles on the timeline */
+.timeline-5::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 1px;
+  background-color: #fff;
+  top: 18px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the right */
+.right-5 {
+  padding: 0px 0px 20px 40px;
+  left: auto;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right-5::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #fff;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #fff transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right-5::after {
+  left: -10px;
+}
+
+@media (max-width: 991px) {
+  .main-timeline-5 {
+    max-width: 100%;
+  }
+}
+.gradient-custom-5 {
+ background: rgba(107, 88, 88, 0);
+}
+
+
+@media screen and (max-width: 1200px) {
+  .info-timeline{
+    left:25%;  
+    width: 70%;
+  }
+
+
+}
