@@ -1,11 +1,13 @@
 body{
     /* genariert mit https://cssgradient.io/ */
-    background: #2A7B9B;
-    background: -webkit-linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
-    background: -moz-linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
-    background: linear-gradient(334deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 62%, rgba(237, 221, 83, 1) 91%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2A7B9B", endColorstr="#EDDD53", GradientType=0);
+  
+    background: #c9973a;
+    background: linear-gradient(45deg, rgba(201, 151, 58, 1) 11%, rgba(8, 180, 114, 1) 49%, rgba(0, 85, 102, 1) 88%);
     overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
 }
 p{
     font-size: 1.2rem;
@@ -44,7 +46,6 @@ h1{
 .title-blue {
     color: rgb(53, 101, 184);
     text-shadow: 2px 2px 4px #1d3aaf;
-
 }
 
 .titleThemenAuswahl{
@@ -58,33 +59,62 @@ h1{
 
 /* Themen Auswahl Seite */
 
-.themen-content-wasser{
+.info-card{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    top:10px;
+    max-width: 1200px;
+  
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+.abs{
+    top: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.abs p{
+    color: black;
+  }
+
+.themen-content-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: top;
+    margin: 0 auto;
+    min-height: 100vh;
     height: 400vh;
-    min-width: 100vh;
-    height: auto;
-    background-color: green;
-    background-image: url(../assets/img/underwater3.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 100% ;
     padding-bottom: 50px;
+    background-image: url(../assets/img/underwater3.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat-x;
+    
   }
 
 
-.info-timeline{
-  position: relative;
+  .body-wasser{
+    background: #0896B4;
+    background: linear-gradient(180deg, rgba(8, 150, 180, 1) 0%, rgba(0, 43, 52, 1) 99%);
+  }
+  
 
-  width: 80%;
-  max-width: 1200px;
-}
 
 .img-fluid{
-    
     cursor: pointer;
 }
 .img-fluid:hover{
@@ -115,85 +145,22 @@ h1{
   background-color: transparent !important;
 }
 
-/* Timeline CSS  https://mdbootstrap.com/docs/standard/extended/timeline/ 26.12.2025 15:45 */
-/* The actual timeline (the vertical ruler) */
-.main-timeline-5 {
-  position: relative;
-  max-width: 50%;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.main-timeline-5::after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  background-color: #fff;
-  top: 0;
-  bottom: 0;
-  left: auto;
-  margin-left: -3px;
-  height: 180vh;
-}
-
-/* Container around content */
-.timeline-5 {
-  position: relative;
-  background-color: inherit;
-  width: 100%;
-}
-
-/* The circles on the timeline */
-.timeline-5::after {
-  content: "";
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  right: 1px;
-  background-color: #fff;
-  top: 18px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-/* Place the container to the right */
-.right-5 {
-  padding: 0px 0px 20px 40px;
-  left: auto;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right-5::before {
-  content: " ";
-  position: absolute;
-  top: 18px;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #fff;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #fff transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right-5::after {
-  left: -10px;
-}
-
-@media (max-width: 991px) {
-  .main-timeline-5 {
-    max-width: 100%;
-  }
-}
-.gradient-custom-5 {
- background: rgba(107, 88, 88, 0);
-}
 
 
 @media screen and (max-width: 1200px) {
-  .info-timeline{
-    left:25%;  
-    width: 70%;
+  .info-card{
+    width: 80%;
   }
+  .themen-content-wasser{
+    background-size: cover;
+  }
+}
 
-
+@media screen and (max-width: 800px) {
+  .info-card{
+    width:100%;
+  }
+  .themen-content-wasser{
+    background-size: cover;
+  }
 }

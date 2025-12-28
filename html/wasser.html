@@ -14,79 +14,79 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/animations.css">
 </head>
-<body>
+<body class="body-wasser" onscroll="updateScrollProgress()" onload="updateScrollProgress()">
 
 <nav class="navbar bg-light fixed-top transparent">
   <div class="container-fluid">
-    <a href="../index.html" class="btn btn-primary btn-lg" role="button" data-bs-toggle="button">Zurück zur Übersicht</a>
+    <a href="../index.html" class="btn btn-primary btn-lg">Zurück zur Übersicht</a>
   </div>
 </nav>
 
-<div class="themen-content-wasser">
+<div class="themen-content-container">
     <h1 class="chewy-regular title title-blue">Wasser</h1>
     <p>Willkommen auf der Seite über das Wasser!</p> 
-
-
-    <!--Timeline Section /* Timeline CSS  https://mdbootstrap.com/docs/standard/extended/timeline/ 26.12.2025 15:45 */-->  
-<section class="gradient-custom-5 info-timeline">
-  <div class="container py-5">
-    <div class="main-timeline-5">
-      <div class="timeline-5 right-5">
-        <div class="card">
-          <div class="card-body p-4">
-            <h5>Title of section 1</h5>
-            <span class="small text-muted"><i class="fas fa-clock me-1"></i>21 March, 2020</span>
-            <p class="mt-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque
-              diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
-              sagittis ligula in sodales vehicula....</p>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-5 right-5">
-        <div class="card">
-          <div class="card-body p-4">
-            <h5>Title of section 2</h5>
-            <span class="small text-muted"><i class="fas fa-clock me-1"></i>5 April, 2020</span>
-            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam
-              non nisi semper.</p>
-            <p class="mb-0">Libero expedita explicabo eius fugiat quia aspernatur autem laudantium error
-              architecto recusandae natus sapiente sit nam eaque, consectetur porro molestiae ipsam! Deleniti.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-5 right-5">
-        <div class="card">
-          <div class="card-body p-4">
-            <h5>Title of section 3</h5>
-            <span class="small text-muted"><i class="fas fa-clock me-1"></i>18 August, 2020</span>
-            <p class="mt-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque
-              diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis
-              sagittis ligula in sodales vehicula....</p>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-5 right-5">
-        <div class="card">
-          <div class="card-body p-4">
-            <h5>Title of section 4</h5>
-            <span class="small text-muted"><i class="fas fa-clock me-1"></i>10 October, 2020</span>
-            <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam
-              non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis
-              ligula in sodales vehicula....</p>
-            <p class="mb-0">Voluptatibus temporibus esse illum eum aspernatur, fugiat suscipit natus! Eum
-              corporis illum nihil officiis tempore. Excepturi illo natus libero sit doloremque, laborum
-              molestias rerum pariatur quam ipsam necessitatibus incidunt, explicabo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="info-card">
+     <div class="abs fade-in" id="abs-1">
+      <h2 class="chewy-regular subtitle subtitle-blue">Die Lichtdurchflutete Zone (0 – 200m)</h2>
+        <h3> Wo das Leben tanzt</h3>
+      <p>
+        
+        </br>
+          Hier, in der epipelagischen Zone, küsst das Sonnenlicht die Wellen. Es ist der Ursprung allen marinen Lebens.
+          </br>
+          Der Content: In dieser Schicht findet die Photosynthese statt. Phytoplankton produziert über 50 % des Sauerstoffs unserer Erdatmosphäre – jeder zweite Atemzug, den wir nehmen, stammt aus dem Meer.  
+          </br>
+          Fokus: Korallenriffe, bunte Fischschwärme und die unbändige Energie der Meeresoberfläche.
+          </br>
+          Key-Takeaway: Wasser ist nicht nur eine Ressource, es ist die Lunge unseres Planeten.
+      </p>
+     </div>
+     <div class="abs fade-in" id="abs-2">
+      <h2 class="chewy-regular subtitle subtitle-blue">Die Dämmerungszone (200m – 1.000m)</h2>
+        <h3>Das Reich der Schatten</h3>
+        <p>
+          <br />
+          Das Blau wird dunkler, der Druck steigt. Nur noch ein Bruchteil des Sonnenlichts erreicht diese Tiefe. Willkommen in der mesopelagischen Zone.
+          <br />
+          Hier begegnen uns faszinierende Überlebenskünstler. Viele Lebewesen nutzen Biolumineszenz, um zu kommunizieren oder Beute anzulocken. Es ist ein Ort des Übergangs und der Stille.
+          <br />
+          Fokus: Anpassung an extreme Bedingungen und die mysteriöse Schönheit des "ewigen Zwielichts".
+          <br />
+          Key-Takeaway: Wasser lehrt uns Resilienz – Leben findet einen Weg, selbst wenn das Licht schwindet.
+        </p>  
+     </div>
+     <div class="abs fade-in" id="abs-3">
+        <h2 class="chewy-regular subtitle subtitle-blue">Die Mitternachtszone (1.000m – 4.000m)</h2>
+          <h3>Die ewige Finsternis</h3>
+          <p>
+            <br />
+            Kein Sonnenstrahl erreicht mehr diese Tiefen. In der bathypelagischen Zone ist der Druck nun so gewaltig wie das Gewicht eines Elefanten auf einem Daumennagel.
+            <br />
+            In dieser absoluten Dunkelheit hängen Organismen vom "Meeresschnee" ab – organischem Material, das von oben herabsinkt. Hier leben Kreaturen, die wirken, als stammten sie von einem anderen Stern.
+            <br />
+            Fokus: Die unendliche Weite und das ökologische Gleichgewicht der Tiefsee.
+            <br />
+            Key-Takeaway: Selbst in der tiefsten Dunkelheit ist alles mit dem Kreislauf der Natur verbunden.
+          </p>
+     </div>
+     <div class="abs fade-in" id="abs-4">
+        <h2 class="chewy-regular subtitle subtitle-blue">Der Meeresgrund (Ab 4.000m)</h2>
+          <h3>Das Fundament der Erde</h3>
+          <p>
+            <br />
+            Wir haben den Boden erreicht. In der abyssischen Zone und den tiefen Gräben offenbaren sich die geologischen Geheimnisse unseres Planeten.
+            <br />
+            Hydrothermale Quellen (Schwarze Raucher) speisen ganze Ökosysteme mit chemischer Energie statt Sonnenlicht. Es ist die Wiege des Lebens, verborgen unter Kilometern von Wasser.
+            <br />
+            Fokus: Geologie, Tektonik und die unberührte Reinheit der Tiefsee-Sedimente.
+            <br />
+            Key-Takeaway: Wer das Wasser versteht, versteht den Ursprung und die Zukunft der Erde.
+          </p>
+     </div>  
   </div>
-</section>
-
-
 </div>
-    
+
+  
 
  
 
@@ -95,6 +95,6 @@
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
+    <script src="../js/main.js"></script>
 </body>
 </html>
