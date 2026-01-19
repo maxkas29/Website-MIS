@@ -33,13 +33,11 @@ h1{
 .title {
     text-align: center;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 20px;
     font-size: 5rem;
     color: white;
     text-shadow: 2px 2px 4px #000000;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* Titel Farbe Wasser Seite  hier soll nochg der Text einen Fabverlauf bekommen */
@@ -67,24 +65,24 @@ h1{
     width: 50%;
     top:10px;
     max-width: 1200px;
-  
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     transition: .5s;
+    overflow-y: auto;
     
 }
 .abs{
-    top: 10px;
     right: 10px;
-    width: auto;
-    height: auto;
+    height: 50vh;
     display: none;
+    margin-top: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+    overflow-y: auto;
+  }
 .abs p{
     color: black;
   }
@@ -145,22 +143,31 @@ h1{
   background-color: transparent !important;
 }
 
+@media screen and (max-width: 1500px) {
+.themen-content-container{
+    background-size: cover;
+  }
+}
 
 
 @media screen and (max-width: 1200px) {
   .info-card{
     width: 80%;
   }
-  .themen-content-wasser{
-    background-size: cover;
-  }
+  
 }
 
 @media screen and (max-width: 800px) {
   .info-card{
     width:100%;
   }
-  .themen-content-wasser{
-    background-size: cover;
+  .abs{
+    margin-top: 30px;
+    height: 50vh;
   }
+  
+}
+@media screen and (max-height: 800px) {
+  
+  
 }
