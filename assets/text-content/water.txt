@@ -1,0 +1,73 @@
+:1: 
+    <h2> Die Lichtdurchflutete Zone <span class="meter-highlight">(0 – 200m)</span></h2> 
+    <h3>Wo das Leben tanzt </h3>
+    <p>
+        </br>
+        Hier, in der epipelagischen Zone, küsst das Sonnenlicht die Wellen. Es ist der Ursprung allen marinen
+        Lebens.
+        </br>
+        Der Content: In dieser Schicht findet die Photosynthese statt. Phytoplankton produziert über 50 % des
+        Sauerstoffs unserer Erdatmosphäre – jeder zweite Atemzug, den wir nehmen, stammt aus dem Meer.
+        </br>
+        Fokus: Korallenriffe, bunte Fischschwärme und die unbändige Energie der Meeresoberfläche.
+        </br>
+        Key-Takeaway: Wasser ist nicht nur eine Ressource, es ist die Lunge unseres Planeten.
+    </p>
+:<1>: 
+
+:2:
+    <h2>Die Dämmerungszone <span class="meter-highlight">(200m – 1.000m)</span></h2>
+    <h3>Das Reich der Schatten</h3>
+    <p>
+        <br />
+        Das Blau wird dunkler, der Druck steigt. Nur noch ein Bruchteil des Sonnenlichts erreicht diese Tiefe.
+        Willkommen in der mesopelagischen Zone.
+        <br />
+        Hier begegnen uns faszinierende Überlebenskünstler. Viele Lebewesen nutzen Biolumineszenz, um zu
+        kommunizieren
+        oder Beute anzulocken. Es ist ein Ort des Übergangs und der Stille.
+        <br />
+        Fokus: Anpassung an extreme Bedingungen und die mysteriöse Schönheit des "ewigen Zwielichts".
+        <br />
+        Key-Takeaway: Wasser lehrt uns Resilienz – Leben findet einen Weg, selbst wenn das Licht schwindet.
+    </p>
+
+:<2>:
+
+:3:
+    <h2>Die Mitternachtszone <span class="meter-highlight">(1.000m – 4.000m)</span></h2>
+    <h3>Die ewige Finsternis</h3>
+    <p>
+        <br />
+        Kein Sonnenstrahl erreicht mehr diese Tiefen. In der bathypelagischen Zone ist der Druck nun so gewaltig wie
+        das Gewicht eines Elefanten auf einem Daumennagel.
+        <br />
+        In dieser absoluten Dunkelheit hängen Organismen vom "Meeresschnee" ab – organischem Material, das von oben
+        herabsinkt. Hier leben Kreaturen, die wirken, als stammten sie von einem anderen Stern.
+        <br />
+        Fokus: Die unendliche Weite und das ökologische Gleichgewicht der Tiefsee.
+        <br />
+        Key-Takeaway: Selbst in der tiefsten Dunkelheit ist alles mit dem Kreislauf der Natur verbunden.
+    </p>
+
+:<3>:
+
+:4:
+    <h2>Der Meeresgrund <span class="meter-highlight">(Ab 4.000m)</span></h2>
+    <h3>Das Fundament der Erde</h3>
+    <p>
+        <br />
+        Wir haben den Boden erreicht. In der abyssischen Zone und den tiefen Gräben offenbaren sich die geologischen
+        Geheimnisse unseres Planeten.
+        <br />
+        Hydrothermale Quellen (Schwarze Raucher) speisen ganze Ökosysteme mit chemischer Energie statt Sonnenlicht.
+        Es
+        ist die Wiege des Lebens, verborgen unter Kilometern von Wasser.
+        <br />
+        Fokus: Geologie, Tektonik und die unberührte Reinheit der Tiefsee-Sedimente.
+        <br />
+        Key-Takeaway: Wer das Wasser versteht, versteht den Ursprung und die Zukunft der Erde.
+    </p>
+
+:<4>:
+

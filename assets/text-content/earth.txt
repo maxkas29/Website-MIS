@@ -1,0 +1,59 @@
+:1:
+    <h2>Der Oberboden <span class="meter-highlight">(0 – 0,3m)</span></h2> 
+    <h3>Die Haut der Erde</h3>
+    <p>
+        <br>
+        Hier pulsiert das Leben. Wurzeln, Regenwürmer und Milliarden von Mikroorganismen und Pilzen verwandeln abgestorbenes Material unermüdlich in fruchtbaren Humus.
+        <br>
+        Der Content: In dieser dünnen Schicht entscheidet sich unser Überleben. Pflanzen finden hier Nährstoffe, und das Bodenleben sorgt für eine krümelige Struktur.
+        <br>
+        Fokus: Biodiversität, Humusbildung und der ewige Nährstoffkreislauf.
+        <br>
+        Key-Takeaway: Eine einzige Handvoll gesunder Erde enthält mehr Lebewesen als es Menschen auf dem gesamten Planeten gibt.
+    </p>
+:<1>:
+
+:2:
+    <h2>Der Unterboden <span class="meter-highlight">(0,3m – 10m)</span></h2>
+    <h3>Der Speicher und Filter</h3>
+    <p>
+        <br />
+        Das Material wird heller, organische Stoffe nehmen ab. Hier dominieren Sand, Lehm oder Ton. Es ist die Zone der Anreicherung und Auswaschung.
+        <br />
+        Auf ihrer Reise in die Tiefe wird das Regenwasser hier gefiltert und gereinigt. Tiefe Baumwurzeln suchen hier nach Halt und den letzten Wasserreserven im Sommer.
+        <br />
+        Fokus: Wasserreinigung, Mineralverwitterung und Stabilität für Pflanzen.
+        <br />
+        Key-Takeaway: Der Unterboden ist unser wichtigster natürlicher Trinkwasserfilter.
+    </p>
+:<2>:
+
+:3:
+    <h2>Das Ausgangsgestein <span class="meter-highlight">(10m – 100m)</span></h2>
+    <h3>Das starre Fundament</h3>
+    <p>
+        <br />
+        Hier endet das Reich der Wurzeln. Festes Gestein (wie Granit oder Kalk) oder lockeres Sediment bildet die Basis, aus der über Jahrtausende durch Verwitterung neuer Boden entsteht.
+        <br />
+        Es ist ein Archiv der Erdgeschichte. Fossilien und Gesteinsschichten erzählen von längst vergangenen Meeren und Klimazonen.
+        <br />
+        Fokus: Geologische Geschichte, Rohstoffe und Grundwasserleiter.
+        <br />
+        Key-Takeaway: Boden ist eine endliche Ressource – die Bildung von nur 1 cm Boden kann Jahrhunderte dauern.
+    </p>
+:<3>:
+
+:4:
+    <h2>Das tiefe Innere <span class="meter-highlight">(Ab 100m)</span></h2>
+    <h3>Die Energie der Tiefe</h3>
+    <p>
+        <br />
+        Tief unter uns steigt die Temperatur an. Wir verlassen die belebte Biosphäre und dringen in die Geosphäre vor. Geothermische Energie schlummert hier im Gestein.
+        <br />
+        Hier liegen die Wurzeln unserer Kontinente. Tektonische Kräfte formen und falten das Gestein langsam aber stetig.
+        <br />
+        Fokus: Erdwärme, Tektonik und mineralische Lagerstätten.
+        <br />
+        Key-Takeaway: Wir wandeln auf einer dünnen Kruste, die ständig in Bewegung ist und von innerer Hitze angetrieben wird.
+    </p>
+:<4>:

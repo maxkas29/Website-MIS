@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="../css/animations.css">
 </head>
 
-<body class="body-wasser" onscroll="updateScrollProgress('down')" onload="updateScrollProgress('down')">
+<body class="body-erde" onscroll="updateScrollProgress('up')" onload="updateScrollProgress('up'); startBottom();">
 
   <nav class="navbar bg-light fixed-top transparent">
     <div class="container-fluid">
@@ -25,19 +25,19 @@
     </div>
   </nav>
 
-  <div class="themen-content-container">
-    <h1 class="chewy-regular title title-blue">Wasser</h1>
-    <p>Willkommen auf der Seite über das Wasser! <br> Tauche ein !</p>
-    <p class="arrow-down dark-blue slide-bottom ">▼</p>
+  <div class="themen-content-container erde-content-container">
+    <div class="bottom">
+      <h1 class="chewy-regular title dark-blue">Luft</h1>
+      <p>Willkommen auf der Seite über die Luft!</p>
+    </div>
 
     <div class="info-card">
-
       <div class="abs fade-in" id="abs-1">
         <div class="white-box">
-          <h2 class="chewy-regular subtitle subtitle-blue">Die Lichtdurchflutete Zone <span class="meter-highlight">(0 –
-              200m)</span></h2>
+          <h2 class="chewy-regular subtitle subtitle-blue">Die Lichtdurchflutete Zone (0 – 200m)</h2>
           <h3> Wo das Leben tanzt</h3>
           <p>
+
             </br>
             Hier, in der epipelagischen Zone, küsst das Sonnenlicht die Wellen. Es ist der Ursprung allen marinen
             Lebens.
@@ -53,8 +53,7 @@
       </div>
       <div class="abs fade-in" id="abs-2">
         <div class="white-box">
-          <h2 class="chewy-regular subtitle subtitle-blue">Die Dämmerungszone <span class="meter-highlight">(200m –
-              1.000m)</span></h2>
+          <h2 class="chewy-regular subtitle subtitle-blue">Die Dämmerungszone (200m – 1.000m)</h2>
           <h3>Das Reich der Schatten</h3>
           <p>
             <br />
@@ -70,12 +69,10 @@
             Key-Takeaway: Wasser lehrt uns Resilienz – Leben findet einen Weg, selbst wenn das Licht schwindet.
           </p>
         </div>
-        <img src="../assets/video/hai3.gif">
       </div>
       <div class="abs fade-in" id="abs-3">
         <div class="white-box">
-          <h2 class="chewy-regular subtitle subtitle-blue">Die Mitternachtszone <span class="meter-highlight">(1.000m –
-              4.000m)</span></h2>
+          <h2 class="chewy-regular subtitle subtitle-blue">Die Mitternachtszone (1.000m – 4.000m)</h2>
           <h3>Die ewige Finsternis</h3>
           <p>
             <br />
@@ -93,8 +90,7 @@
       </div>
       <div class="abs fade-in" id="abs-4">
         <div class="white-box">
-          <h2 class="chewy-regular subtitle subtitle-blue">Der Meeresgrund <span class="meter-highlight">(Ab
-              4.000m)</span></h2>
+          <h2 class="chewy-regular subtitle subtitle-blue">Der Meeresgrund (Ab 4.000m)</h2>
           <h3>Das Fundament der Erde</h3>
           <p>
             <br />
@@ -111,9 +107,12 @@
           </p>
         </div>
       </div>
-
     </div>
   </div>
+
+
+
+
 
   <div class="footer">
     <div class="container text-center">
@@ -127,6 +126,7 @@
       </div>
     </div>
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
